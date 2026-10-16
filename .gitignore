@@ -1,0 +1,17 @@
+# Virtual environment (recreate with: pip install -r requirements.txt)
+venv/
+.venv/
+# Python cache
+__pycache__/
+*.pyc
+# Training checkpoints and logs
+models/adapters/*/checkpoint-*/
+runs/
+*.log
+# Base model downloads (large)
+models/base/*
+!models/base/.gitkeep
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
